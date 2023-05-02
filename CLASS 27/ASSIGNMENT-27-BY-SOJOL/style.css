@@ -1,0 +1,40 @@
+* {
+	font-family:Montserrat Medium;
+}
+
+body{
+	margin:0;
+	background-color:#E9E9E9;
+}
+.skill {
+	width:100%;
+	background-color:#F8F9F9;
+}
+.skill .container {
+	width:70%;
+	margin:auto;
+	padding:150px 0;
+}
+.full-1,
+.full-2,
+.full-3 {
+	float:right;
+	width:70%;
+	height:30px;
+	background-color:#E9E9E9;
+	border-radius:20px;
+}
+.full-1 .percent-1,
+.full-2 .percent-2,
+.full-3 .percent-3 {
+	float:left;
+	width:0;
+	height:inherit;
+	background-color:#10C9C3;
+	border-radius:inherit;
+}
+.b {
+	display:block;
+	height:30px;
+	margin-top:3px;
+}

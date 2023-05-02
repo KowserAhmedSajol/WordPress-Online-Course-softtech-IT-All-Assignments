@@ -1,0 +1,42 @@
+body {
+	font-family:lato;
+}
+p {
+	color:#848789;
+	line-height:1.8em;
+	font-size:18px;
+}
+
+
+
+/************** header area ************************/
+.header {
+	background-image: url('images/Bicycle_Theme.png');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	padding-bottom:674px;
+	text-transform:uppercase;
+	padding-top:55px;
+}
+.header ul li a {
+	color:#4D4959;
+	font-weight:900;
+	letter-spacing:.1em;
+	margin:0 14px;
+	font-size:13px;
+	border-bottom:1px solid transparent;
+	transition:.7s;
+}
+.header ul li a:hover {
+	color:#64C29E;
+	border-bottom:1px solid #64C29E;
+}
+.header ul li a img {
+	margin-top:-34px;
+}
+.header ul .notice a:hover,
+.header ul .notice a {
+	border-bottom:none;
+}
+
+/************** header area ends ************************/

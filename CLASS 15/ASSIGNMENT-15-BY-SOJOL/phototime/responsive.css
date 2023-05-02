@@ -1,0 +1,19 @@
+@media all and (max-width: 770px) {
+	.menu ul li img {
+	margin:0;
+	}
+	.header-area .menu li {
+	margin:0 20px;
+	}
+}
+.slides .sec1 p {
+	font-size:12px;
+	line-height:1.1em;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+body {
+	margin:0;
+}
+.box {
+	height:400px;
+	width:400px;
+	background-color:gray;
+	position:absolute;
+	top:30%;
+	left:30%;
+	transition:2s;
+	box-shadow:20px 20px 10px red;
+}
+.box:hover {
+	box-shadow:20px 20px 10px black;
+	transform:scale(.5) rotate(90deg);
+	background-color:green;
+}

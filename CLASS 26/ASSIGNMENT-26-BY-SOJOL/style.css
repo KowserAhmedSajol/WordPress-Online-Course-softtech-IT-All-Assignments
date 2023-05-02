@@ -1,0 +1,48 @@
+.hide-box {
+	text-align: center;
+}
+#hide {
+	position: absolute;
+	top:40px;
+	left:47%;
+}
+#show {
+	position: absolute;
+	top:40px;
+	left:51%;
+}
+#toggle {
+	position: absolute;
+	top:70px;
+	left:48%;
+}
+
+#one {
+height: 40px;
+width:30px;
+background-color: red;
+margin:auto;
+margin-top:30px;
+}
+#two {
+height: 40px;
+width:30px;
+background-color: yellow;
+margin:auto;
+margin-top:30px;
+}
+#text-box {
+	height: 400px;
+	width:400px;
+	background-color: blue;
+	font-size: 20px;
+}
+
+
+
+#b-2 {
+	background-color: red;
+}
+#b-3 {
+	color:green;
+}

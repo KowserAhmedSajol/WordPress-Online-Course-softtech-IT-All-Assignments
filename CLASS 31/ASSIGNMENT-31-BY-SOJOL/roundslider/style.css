@@ -1,0 +1,9 @@
+#appearance2 .rs-range-color  {
+    background-color: red;
+}
+#appearance2 .rs-handle:after  {
+    background-color: #000000;
+}
+#appearance2 .rs-border  {
+    border-color: #ff8d00;
+}

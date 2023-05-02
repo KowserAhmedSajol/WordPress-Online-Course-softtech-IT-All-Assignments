@@ -1,0 +1,52 @@
+body {
+	margin:0;
+	font-family:tahoma;
+}
+.menu {
+	background-color:#1D8AEB;
+}
+.menu ul {
+	margin:0;
+	list-style:none;
+}
+.menu ul li {
+	float:left;
+}
+.menu:after {
+	content:'';
+	display:block;
+	clear:both;
+}
+.menu a {
+	padding:10px 30px;
+	display:block;
+	text-decoration:none;
+	color:white;
+}
+.menu ul li:hover a {
+	background-color:#F39E0E;
+	color:black;
+	
+}
+.menu ul ul {
+	position:absolute;
+	background-color:#F39E0E;
+	padding:0;
+	min-width:150px;
+	display:none;
+}
+.menu ul ul li {
+	float:none;
+}
+.menu ul ul li:hover a {
+	background-color:#FFCA77;
+}	
+.menu ul li:hover ul {
+	display:block;
+}
+	
+	
+	
+	
+	
+	

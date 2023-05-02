@@ -1,0 +1,173 @@
+body {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+
+/************** header area ************************/
+.header {
+	text-transform:uppercase;
+	padding-top:5px;
+	background-color:#87509c;
+	padding:60px 0;
+}
+.menu {
+	float:right;
+}
+.header ul li a {
+	color:white;
+	font-weight:400;
+	letter-spacing:.1em;
+	margin:0 14px;
+	font-size:16px;
+	transition:.7s;
+	padding:4px 13px;
+
+}
+.header ul li a:hover {
+	background-color: #643a79;
+	border-radius: 3px;
+}
+
+
+.section-1 {
+	background-color:#87509c;
+	overflow: hidden;
+	color: #d9d9d9;
+	padding:100px 0;
+}
+.section-1 h1 {
+	font-size:35px;
+	font-weight: 900;
+	color:#f7f3ea;
+}
+.section-1 a {
+	text-transform:uppercase;
+	padding:20px 70px;
+	background-color:#eb7d4b;
+	color:white;
+	display:inline-block;
+	margin:40px 0;
+	border-radius:3px;
+	text-decoration:none;
+	border-bottom:4px solid #c86a40;
+}
+
+/************** header area ends ************************/
+
+
+/************** portfolio area starts ************************/
+
+.portfolio {
+	padding:50px 0;
+	background-color:#17c2a4;
+	color:white;
+}
+.portfolio hr {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #14a58c;
+	width:60px;
+	text-align: center;
+}
+.portfolio h2 {
+	font-weight:700;
+	font-size: 40px;
+	letter-spacing: .1em;
+}
+.portfolio img {
+	margin:30px 0;
+	height:120px;
+}
+.portfolio h5 {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight:700;
+}
+.portfolio p {
+	font-size:16px;
+}
+.portfolio .row p {
+	text-align: justify;
+}
+/************** portfolio area ends ************************/
+
+/************** portfolio2 area starts ************************/
+
+.portfolio-2 {
+	padding:150px 0;
+	background-color:#e7f1f8;
+	color:#3c4761;
+}
+.portfolio-2 hr {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #c8d9e5;
+	width:60px;
+	text-align: center;
+}
+.portfolio-2 h2 {
+	font-weight:700;
+	font-size: 40px;
+	letter-spacing: .1em;
+}
+.portfolio-2 img {
+	margin:30px 0;
+	width:250px;
+	height:250px;
+	border-radius: 50%;
+}
+.portfolio-2 h5 {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight:700;
+}
+.portfolio-2 h6 {
+	color:#3cbee8;
+}
+.portfolio-2 p {
+	font-size:16px;
+}
+.portfolio-2 .row p {
+	text-align: justify;
+}
+.portfolio-2 .links {
+	padding:20px 0;
+}
+.portfolio-2 .links a {
+	color:white;
+	background-color: #bdd1df;
+	margin:0 5px;
+	padding:5px 13px;
+	border-radius:50%;
+	text-decoration: none;
+}
+/************** portfolio2 area ends ************************/
+
+/************** footer area starts ************************/
+
+.f-menu {
+	background-color: #344b8e;
+	padding: 20px 0;
+	text-align: center;
+}
+.f-menu ul li {
+	margin:0 15px;
+}
+.f-menu ul li a {
+	color:white;
+	font-size: 25px;
+	transition:.5s;
+}
+.f-menu ul li a:hover {
+	color:#30bae7;
+}
+
+
+
+
+
+
+
+/************** footer area ends ************************/

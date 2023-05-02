@@ -1,0 +1,65 @@
+body {
+	margin:0;
+	background-color:#bdc3c7;
+}
+.header {
+	background-color:#009270;
+	height:80px;
+	overflow:hidden:
+}
+
+
+.header img {
+	height:40px;
+	width:90px;
+}
+.header .two, .three, .four, .five, .six, .seven {
+	overflow: hidden;
+	float:left;
+	margin-left: 70px;
+	margin-top:25px;
+	font-size: 30px;
+	color:white;
+	
+}
+.header .one {
+	overflow: hidden;
+	float:left;
+	margin-left: 70px;
+	margin-top:15px;
+}
+.otherheader {
+	background-color:#4A4A4A;
+	overflow:hidden;
+	
+}
+.otherheader .first, .second, .third, .fourth, .fifth, .sixth {
+	overflow: hidden;
+	float:left;
+	margin-left: 70px;
+	margin-top:15px;
+	margin-bottom:15px;
+	font-size: 15px;
+	color:white;
+}
+.center {
+	padding:100px;
+	background-color:white;
+	overflow:hidden;
+}
+.center h1 {
+	text-align:center;
+	font-size:100px;
+	margin:0;
+}
+.footer {
+	height:30px;
+	text-align:right;
+	background-color:#4A4A4A;
+	overflow:hidden;
+}
+.footer p {
+	margin: 0px;
+	padding-right:20px;	
+	padding-top:5px;	
+}

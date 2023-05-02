@@ -1,0 +1,190 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+/************************banner area starts************************/
+.banner {
+	background-image: url(images/banner.jpg);
+	background-size: cover;
+	min-height: 750px;
+}
+.banner .logo img {
+	width:48%;
+}
+.banner hr {
+	border-color: #515368;
+}
+.menu ul li a {
+	color:#b6b7c1;
+	font-weight: 700;
+	transition:.5s;
+}
+.menu ul li:hover a {
+	color:white;
+}
+.des {
+	text-align:center;
+	color:white;
+}
+.des h1 {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 70px;
+	color:white;
+	margin-top: 120px;
+}
+.des p {
+	font-size: 20px;
+}
+.des a {
+	background-color: #e84545;
+	margin:50px;
+	font-weight: 700;
+	border-radius: 3px;
+
+}
+.des a:hover {
+	background-color: #E52E2E;
+}
+
+
+/************************banner area ends************************/
+
+
+/************************Features area starts************************/
+
+.features {
+	padding:80px 0;
+}
+.features h5 {
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.a {
+	margin:1px;
+}
+
+/************************Features area ends************************/
+
+/************************Team area starts************************/
+
+
+
+.team {
+	padding:100px 0;
+}
+.person h4 {
+	display:inline-block;
+	padding-top:40px;
+	margin:0;
+	font-size: 25px;
+}
+.person h5 {
+	margin:0;
+	color:#ed6a6a;
+}
+
+.social-icons {
+	text-align:center;
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+.social-icons li {
+	display:inline;
+	margin:1px;
+}
+.social-icons li a {
+	color:#c9cdcf;
+	padding:10px;
+	border:1px solid #c9cdcf;
+	transition: .5s;
+}
+.social-icons li:hover a {
+	background-color: #E84848;
+	color:white;
+	border-color:#E84848;
+}
+
+
+/************************Team area ends************************/
+
+
+/************************Download area ends************************/
+
+
+.d-area {
+	text-align: center;
+	padding:100px 0;
+}
+.d-area a {
+	display: inline-block;
+	text-decoration: none;
+	color:#b6b7c1;
+	font-weight: 700;
+	transition:.5s;
+	padding:15px 40px;
+	background-color: #e84545;
+	margin:20px 0;
+}
+.d-area a:hover {
+	color:white;
+	background-color: #E52E2E;
+}
+.d-area h3 {
+	font-weight: 400;
+	font-size: 40px;
+}
+.d-area p {
+	font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************Download area ends************************/
+
+
+.last {
+	text-align: center;
+	background-color: #313454;
+	overflow:hidden;
+	padding:40px 0;
+}
+.last p {
+	color:#6A85A7;
+}
+.last a {
+	text-decoration: none;
+	color:white;
+	transition: .5s;
+}
+.last a:hover {
+	color:#CB3954;
+}
+.last .fa-heart {
+	color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

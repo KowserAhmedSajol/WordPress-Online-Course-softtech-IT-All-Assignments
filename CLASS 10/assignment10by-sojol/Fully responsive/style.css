@@ -1,0 +1,282 @@
+body {
+	margin:0;
+}
+.header {
+	background-color:#3B5998;
+	width:100%;
+	padding: 15px 0;
+}
+.facebook {
+	float:left; 
+	width:30%;
+}
+.login-site {
+	width:70%;
+	overflow:hidden; 
+	color:white;
+	font-size:14px;
+	font-family:tahoma;
+}
+.login-site label,
+.login-site input {
+	display:block;
+}
+login-site input {
+	cursor: text;
+}
+.email {
+	float:left;
+	margin-right: 15px;
+}
+.pass {
+	float:left;
+	overflow:hidden;
+	margin-right: 15px;
+}
+.login {
+	float:left;
+	overflow:hidden;
+}
+.login input {
+	background-color:#4267B2;
+	border: 2px solid #29487D;
+	color:white;
+	
+}
+
+.login-site input {
+	margin: 2px 0;
+}
+.login input {
+	margin-top:19px;
+	cursor:pointer;
+}
+.login-site form {
+	float:right;
+}
+.merge {
+	width:90%;
+	margin:auto;
+}
+.pass a {
+	text-decoration:none;
+	color:white;
+	cursor: pointer;
+}
+.pass a:hover {
+	text-decoration:underline;
+}
+.center {
+	width:100%;
+	background-color:#EBEDF0;
+	
+}
+.fo {
+	margin:auto;
+	padding-top:30px;
+	width:40%
+}
+.fo input {
+	box-sizing: border-box;
+	border-radius: 4px;
+}
+.create {
+	font-size:50px;
+	margin:0;
+}
+.other {
+	margin:0;
+	padding-bottom:20px;
+	font-size:25px;
+	color:#7E8185;
+}
+.f-name {
+	float:left;
+	width:48%;
+	margin-right:4%;
+	
+}
+.s-name {
+	Overflow:hidden;
+	width:48%;
+	
+}
+.a, .b {
+	width:100%;
+	height: 50px;
+	font-size:25px;
+	margin-bottom:10px;
+}
+
+.c, .d {
+	width:100%;
+	height: 50px;
+	font-size:25px;
+	margin-bottom:10px;
+}
+
+.e, .f{
+	float:left;
+	overflow:hidden;
+	width:50px;
+}
+.g {
+	width:50px;
+}
+.h{
+	margin-top:10px;
+}
+.b-date h3 {
+	margin:5px 0 7px;
+	color:#7E8185;
+	
+}
+.gend, .policy {
+	margin:10px 0 10px;
+}
+.policy {
+	width:50%;
+	font-size:12px;
+	color:#7E8185;
+}
+.gend b {
+	color:#7E8185;
+	font-size:19px;
+}
+.i {
+	height:30px;
+	width:200px;
+	background-color:#609C4D;
+	color:white;
+	margin-bottom:100px;
+}
+.sub {
+	margin:10px 0 10px;
+}
+.sub input {
+	height:60px;
+	width:60%;
+	font-size:25px;
+}
+.center input {
+	border: 1px solid #C1CADA;
+}
+.footer {
+	width:90%;
+	margin:auto;
+	padding-bottom:25px;
+	
+}
+.footer a,
+.policy a {
+	margin-right:15px;
+	cursor:pointer;
+	text-decoration:none;
+}
+.footer a:hover,
+.policy a:hover {
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 800px ) {
+	.facebook {
+		float:none;
+		margin-bottom: 20px;
+		text-align:center;
+		width:100%
+	}
+	.login-site {
+		width:100%;
+	}
+	.login-site form {
+		width: 100%;
+		float:none;
+		margin:auto;
+	}
+	.create {
+	font-size:20px;
+	text-align:center;
+	}
+	.other {
+	text-align:center;
+	padding-bottom:20px;
+	font-size:10px;
+	}
+	.fo {
+	margin:auto;
+	padding-top:10px;
+	width:90%
+	}
+	.sub {
+		text-align:center;
+	}
+}
+@media all and (max-width: 422px ) {
+	.email {
+		float:none;
+	}
+	.pass {
+		float:none;
+	}
+	.login {
+		float:none;
+	}
+	.login-site {
+		width:100%;
+	}
+	.email input,
+	.pass input {
+		width:100%;
+		height:20px;
+		
+	}
+	.email,
+	.pass {
+		margin-right:0;
+	}
+	
+	.login input {
+		width:100%;
+		height:40px;
+		font-size:20px;
+	}
+	.policy {
+	width:100%;
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

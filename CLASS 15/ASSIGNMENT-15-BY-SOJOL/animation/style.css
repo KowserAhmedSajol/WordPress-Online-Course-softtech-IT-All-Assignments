@@ -1,0 +1,102 @@
+body{
+	margin:0;
+}
+.box {
+	height:200px;
+	width:200px;
+	background-color:yellow;
+	animation-name:sojol;
+	animation-duration:20s;
+	animation-delay:2s;
+	position:absolute;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	border-radius:50%;
+	position:relative;
+}
+.eye1 {
+	height:20px;
+	width:20px;
+	position:absolute;
+	background-color:black;
+	border-radius:50%;
+	top:28%;
+	left:62%;
+	animation-name:bye;
+	animation-duration:2s;
+	animation-delay:5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+.eye2 {
+	height:20px;
+	width:20px;
+	position:absolute;
+	background-color:black;
+	border-radius:50%;
+	top:28%;
+	left:23%;
+	animation-name:bye;
+	animation-duration:2s;
+	animation-delay:5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+.mouth {
+	height:55px;
+	width:40px;
+	position:absolute;
+	background-color:black;
+	border-radius:50%;
+	top:58%;
+	left:40%;
+}
+@keyframes bye {
+	19% {
+		height:20px;
+		border-radius:50%;
+	}
+	20% {
+		height:3px;
+		border-radius:0px;
+	}
+	21% {
+		height:20px;
+		border-radius:50%;
+	}
+}
+@keyframes sojol {
+	0% {
+		top:0;
+		left:0;
+	}
+	10% {
+		top:100px;
+		left:150px;
+	}
+	20% {
+		top:0;
+		left:300px;
+	}
+	30% {
+		top:100px;
+		left:450px;
+	}
+	40% {
+		
+		top:0;
+		left:600px;
+	}
+	50% {
+		top:100px;
+		left:750px;
+		}
+	75% {
+		top:500px;
+		left:800px;
+	}
+	100% {
+		top:0;
+		left:0;
+	}
+}

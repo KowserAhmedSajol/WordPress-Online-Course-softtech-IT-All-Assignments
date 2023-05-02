@@ -1,0 +1,186 @@
+body {
+	font-family:lato;
+}
+p {
+	color:#848789;
+	line-height:1.8em;
+	font-size:18px;
+}
+
+
+
+/************** header area ************************/
+.header {
+	text-transform:uppercase;
+	padding-top:5px;
+	background-color:#262626;
+	padding:10px 0;
+}
+.menu {
+	float:right;
+}
+.header ul li a {
+	color:#d9d9d9;
+	font-weight:900;
+	letter-spacing:.1em;
+	margin:0 14px;
+	font-size:13px;
+	transition:.7s;
+}
+.header ul li a:hover {
+	color:#ff6760;
+}
+
+/************** header area ends ************************/
+
+/************** h1 area ends ************************/
+
+.section-1 {
+	background-color: #2a2a2a;
+	overflow: hidden;
+	color: #d9d9d9;
+	padding:30px 0;
+}
+.h4-s1 {
+	font-weight:900;
+}
+.section-1 h1 {
+	font-size:45px;
+}
+.section-1 h4 {
+	font-size:30px;
+}
+.section-1 a {
+	text-transform:uppercase;
+	font-weight:bold;
+	padding:10px 20px;
+	background-color:#ff6760;
+	color:white;
+	display:inline-block;
+	margin:40px 0;
+	border-radius:3px;
+	text-decoration:none;
+}
+
+/************** h1 area ends ************************/
+
+
+/************** portfolio area starts ************************/
+
+.portfolio {
+	padding:50px 0;
+	background-color:#f8f8f8;
+}
+.portfolio img {
+	margin:30px 0;
+}
+.portfolio p {
+	font-size:13px;
+}
+/************** portfolio area ends ************************/
+
+/************** gallery area starts ************************/
+.gallery {
+	padding: 30px 0;
+}
+.gallery h4 {
+	text-transform:capitalize;
+}
+.menu-2 ul {
+	text-align:center;
+	margin:20px 0;
+}
+.menu-2 ul li {
+	display:inline;
+}
+.menu-2 ul li a {
+	color:white;
+	font-weight:900;
+	letter-spacing:.1em;
+	margin:0 5px;
+	font-size:13px;
+	transition:.7s;
+	background-color:#ff6760;
+	padding: 7px 20px;
+	border-radius:4px;
+	text-decoration:none;
+}
+.menu-2 ul li a:hover {
+	background-color:#595959;
+}
+.menu-2 .active {
+	background-color:#595959;
+}
+.a img {
+	width:99.5%;
+	margin: 13px 0;
+}
+/************** gallery area ends ************************/
+
+
+/************** links area starts ************************/
+.links {
+	background-color:#313131;
+	color:#e0e0e0;
+	padding:40px 0;
+}
+.links h3 {
+	font-weight:700;
+}
+.links p {
+	font-weight:300;
+	color:#777777;
+	font-size:20px;
+}
+.links .row p {
+	font-weight:400;
+	font-size:13px;
+	color:#bebebe;
+}
+.icons a {
+	
+	display:inline-block;
+	color:white;
+	margin:30px 10px;
+	border-radius:50%;
+}
+.j {
+	padding:10px 12px;
+	background-color:#f3b25b;
+}
+.k {
+	padding:10px 15px;
+	background-color:#5883c0;
+}
+.n {
+	padding:10px 15px;
+	background-color:#63bee0;
+}
+.m {
+	padding:10px 13px;
+	background-color:#e9a0c4;
+}
+
+
+/************** links area ends ************************/
+
+
+
+.rights {
+	background-color:#2c2c2c;
+	color:#bebebe;
+	padding:20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

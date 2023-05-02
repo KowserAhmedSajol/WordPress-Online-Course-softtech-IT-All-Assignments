@@ -1,0 +1,11 @@
+@media all and (max-width:770px) {
+	.container {
+		width:80%;
+	}
+	header .container {
+		width:90%;
+	}
+	.text {
+		width:80%;
+	}
+}

@@ -1,0 +1,10 @@
+* {
+	margin:0;
+}
+.lb-data .lb-caption {
+	font-size: 20px;
+	color:#f1c40f;
+}
+.lightbox .lb-image {
+	border:1px solid #d35400;
+}

@@ -1,0 +1,220 @@
+@font-face {
+	src:  url('fonts/Lato-Light.woff');
+	font-family:lato-light;
+	
+}
+body {
+	margin:0;
+	font-family:lato;
+	text-align:center;
+}
+header {
+	background-image: url(images/bg1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:#ffffff;
+	padding: 200px 0 50px;
+}
+header .container {
+	width:60%;
+	margin:auto;
+	border:none;
+}
+h1,
+header p {
+	text-transform:uppercase;
+}
+.text {
+	width:50%;
+	margin:auto;
+}
+header h1 {
+	font-size:45px;
+	letter-spacing:5px;
+}
+header img {
+	width:50px;
+	height:auto;
+}
+header p {
+	margin-bottom: 250px;
+	font-size:13px;
+	line-height:20px;
+	
+}
+header a {
+	text-decoration:none;
+	color:white;
+}
+header a img {
+	width:20px;
+	height:auto;
+}
+.container {
+	width:50%;
+	border:1px solid black;
+	margin:auto;
+	position:relative;
+}
+.about p,
+.services p,
+.what-we-do p,
+.contact p{
+	font-family:lato-light;
+	line-height:20px;
+	margin: 40px 0;
+}
+.about,
+.what-we-do,
+.contact {
+	margin: 100px 0 90px;
+	box-sizing:border-box;
+	
+}
+.heading h1 {
+	color:black;
+	margin:0;
+	background-color:white;
+	padding:5% 10%;
+}
+.about .heading {
+	position:absolute;
+	top:-14%;
+	left:30%;
+	width:40%;
+}
+.services {
+	background-image: url(images/bg2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding: 100px 0;
+	margin:20px 0
+}
+.services .heading {
+	top:-17%;
+	position:absolute;
+	left:30%;
+	width:40%;
+}
+.what-we-do .heading {
+	position:absolute;
+	top:-3%;
+	left:25%;
+	width:50%;
+}
+.what-we-do img {
+	margin-top:100px;
+}
+/******links****/
+.links {
+	overflow:hidden;
+}
+.links .boxes:nth-of-type(1),
+.links .boxes:nth-of-type(3),
+.links .boxes:nth-of-type(4),
+.links .boxes:nth-of-type(6) {
+	width:28%;
+}
+.links .boxes:nth-of-type(2),
+.links .boxes:nth-of-type(5) {
+	width:40%;
+	margin: 0 1%;
+}
+.box {
+	overflow:hidden;
+	margin-bottom: 5px;
+}
+.links .boxes img {
+	width:100%;
+	height:auto;
+}
+.links .boxes {
+	float:left;
+	position:relative;
+}
+.links {
+	overflow:hidden;
+	width:100%;
+}
+.links .boxes p {
+	position:absolute;
+	bottom:5%;
+	left:5%;
+}
+.links .boxes a {
+	text-decoration:none;
+	color:#ffffff;
+	font-size:20px;
+	text-transform:uppercase;
+}
+.contact .container {
+	margin-bottom: 0 0 50px;
+}
+.contact a {
+	text-decoration:none;
+	color:#ffffff;
+	font-size:20px;
+	text-transform:uppercase;
+	background-color:#3c3c3c;
+	padding:10px 80px;
+	display:inline-block;
+	margin-bottom:30px;
+}
+
+.contact .heading {
+	position:absolute;
+	top:-15%;
+	left:25%;
+	width:50%;
+}
+.last {
+	position:absolute;
+	bottom:5%;
+	left:5%;
+}
+.contact ul {
+	list-style:none;
+	margin-top:20px;
+}
+.contact ul li {
+	display:inline-block;
+	margin-right:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+body {
+	margin:0;
+}
+#accordion .ui-state-default {
+	background-color:#e74c3c;
+}
+#accordion .ui-state-active {
+	background-color:#2980b9;
+	border:1px solid #2980b9;
+	color:#ecf0f1;
+}
+#accordion .ui-widget-content {
+	background-color:#3498db;
+	color:#ffffff;
+}
+

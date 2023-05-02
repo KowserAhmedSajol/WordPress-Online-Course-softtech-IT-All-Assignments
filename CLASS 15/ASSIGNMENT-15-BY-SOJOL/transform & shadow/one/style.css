@@ -1,0 +1,17 @@
+body {
+	margin:0;
+}
+.box {
+	height:500px;
+	width:500px;
+	background-color:green;
+	position:absolute;
+	top:20%;
+	left:30%;
+	transition:2s;
+}
+.box:hover {
+	transform: scale(.5) rotate(360deg);
+	box-shadow: 10px 10px 10px red;
+	border-radius:50%;
+	}

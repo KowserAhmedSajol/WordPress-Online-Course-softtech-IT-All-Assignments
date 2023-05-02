@@ -1,0 +1,22 @@
+h1{
+	color:#6c5ce7;
+	font-size:40px;
+	font-family:Bodoni MT Black;
+}
+body{
+	background-color:#f1f2f6;
+	text-align: center;
+	
+}
+p{
+	font-size:25px;
+}
+b{
+	color:#0a3d62;
+}
+mark{
+	background-color:red;
+}
+ins,a{
+	color:rgb(61, 193, 211);
+}

@@ -1,0 +1,82 @@
+body {
+	margin:0;
+	background-image: url(img/forest.jpg);
+	background-size:cover;
+	font-family: tahoma;
+}
+.active {
+	background-color:#353b48;
+}
+.menu {
+	background-color:#718093;
+}
+.menu:after {
+	content:'';
+	display:block;
+	clear:both;
+}
+.menu ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.menu a {
+	text-decoration:none;
+	color:white;
+	padding:10px 30px;
+	display:block;
+	text-transform:capitalize;
+}
+.menu > ul > li {
+	float:left;
+	margin-right:2px;
+	position:relative;
+}
+.menu ul li:hover a {
+	background-color:#353b48;
+}
+.menu ul ul {
+	float:none;
+	margin:0;
+	position:absolute;
+	top:100%;
+	left:0;
+	background-color:#353b48;
+	display:none;
+	min-width: 170px;
+}
+.menu ul li:hover > ul{
+	display:block;
+}
+.menu ul ul li:hover a {
+	background-color:#718093;
+}
+.menu ul ul ul {
+	left:100%;
+	top:0;
+}
+.menu ul ul li {
+	position:relative;
+}
+.menu ul ul ul li:hover a {
+	background-color:#353b48;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

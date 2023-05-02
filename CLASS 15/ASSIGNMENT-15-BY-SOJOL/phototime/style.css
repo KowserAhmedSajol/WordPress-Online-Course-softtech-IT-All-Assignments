@@ -1,0 +1,372 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: phototime
+	Template URI: http://www.phototime.com
+	Description: photo related template
+	Author: Kowser Ahmed Sojol
+	Author URI: http://www.sojol.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+	3. starting area
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+
+/************** 1. Typography ************************/
+@font-face {
+	font-family: "bold";
+	src: url('fonts/GothamRoundedBold.woff');
+}
+@font-face {
+	font-family: "light";
+	src: url('fonts/GothamRoundedLight.woff');
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-transform:uppercase;
+	font-family: "bold";
+	line-height:1.3em;
+	letter-spacing:4px;
+	word-spacing:5px;
+}
+p {
+	font-family: "light";
+	letter-spacing:3px;
+	word-spacing:3px;
+	font-size:14px;
+	line-height:2em;
+}
+
+
+
+
+
+/************** 2. Header Area ************************/
+
+.a {
+	text-decoration:none;
+	color:white;
+	background-color:#16A085;
+	padding:15px 40px;
+	text-transform:uppercase;
+	border-radius:4px;
+	display:inline-block;
+	font-size:12px;
+	letter-spacing:3px;
+	border:4px solid transparent;
+	font-family: "bold";
+	transition:.5s;
+	
+}
+.a:hover {
+	border:4px solid #16A085;
+	background-color:white;
+	color:#16A085;
+}
+.header-area {
+	background-image: url(images/h-bg.png);
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	text-align:center;
+	overflow:hidden;
+	padding:20px 0 0;
+	font-family: "bold";
+	color:white;
+}
+.header-area ul {
+	text-transform:uppercase;
+	list-style:none;
+	padding:0;
+}
+.menu ul li img {
+	margin:0 5px;
+}
+.header-area .menu li {
+	display:inline;
+	margin:0 35px;
+	font-size:14px;
+}
+.header-area ul li a {
+	text-decoration:none;
+	color:white;
+	letter-spacing:4px;
+	transition:.5s;
+}
+.header-area .welcome h1 {
+	text-transform:uppercase;
+	font-size:40px;
+	margin-top:280px;
+	letter-spacing:6px;
+	word-spacing:5px;
+}
+.header-area .welcome h5 {
+	letter-spacing:4px;
+}
+.header-area .links li {
+	display:inline;
+}
+.header-area .links li a {
+	font-size:25px;
+	display:inline-block;
+	margin-top:200px;
+	margin-left:5px;
+	margin-right:5px;
+}
+.header-area .links li a i {
+	color:white;
+}
+.header-area .links li a i:hover {
+	color:#16A085;
+}
+.menu ul li a {
+	border-bottom:1px solid transparent;
+	padding:5px 0;
+}
+.menu ul li a:hover {
+	border-bottom:1px solid white;
+	color:#16A085;
+}
+.menu .logo a {
+	border:none;
+}
+.menu .logo a:hover {
+	border:none;
+}
+
+
+
+/************** 3. starting area ************************/
+
+.container {
+	width:90%;
+	margin:auto;
+}
+.container-2 {
+	width:50%;
+	padding:140px 0;
+}
+.starting-area {
+	background-image: url('images/mobile-hand.PNG');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+}
+.starting-area h2 {
+	color:#16A085;
+}
+.starting-area p {
+	padding: 30px 0;
+}
+
+
+
+/************** 4. Design Area ************************/
+
+
+.design-area {
+	background-image: url(images/mo.png);
+	background-repeat:no-repeat;
+	overflow:hidden;
+	background-position:top left 10%;
+	margin-top:70px;
+}
+.design-area .container-2 {
+	float:right;
+	padding:0;
+}
+.design-area h2 {
+	color:#16A085;
+}
+.slide {
+	margin: 50px 0;
+}
+.arrow i {
+	color: #000000;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+
+
+/************** 5. Community Area ************************/
+.community-area {
+	background-color:#F5F6F7;
+	overflow:hidden;
+	padding:80px 0;
+}
+.community-area .arrow {
+	position:absolute;
+	top:-26px;
+	right:30px;
+	
+}
+.community-area .slides {
+	position:relative;
+}
+.slides .sec1,
+.slides .sec2,
+.slides .sec3 {
+	float:left;
+	overflow:hidden;
+	width: 32%;
+	text-align:center;
+	margin:0 .4%;
+}
+.sec2 img, 
+.sec3 img {
+	width:100%;
+	height:100%;
+}
+
+
+
+
+/************** 6. Subscribe Area ************************/
+
+
+
+
+.subscribe-area {
+	background-image: url(images/bg.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:300px 0;
+	text-align:center;
+	color:white;
+}
+.subscribe-area form input[type="email"] {
+	padding:10px 30px;
+	background-color:white;
+	border:none;
+	text-transform: uppercase;
+	border-radius:3px 0 0 3px;
+	font-family: "bold";
+}
+.subscribe-area button {
+	margin:-5px;
+	padding:8px 10px;
+	border:none;
+	background-color:#16A085;
+	border-radius:0 3px 3px 0;
+}
+.subscribe-area button i {
+	margin:0;
+	padding:0;
+	padding-bottom:3px;
+	color:white;
+	cursor:pointer;
+}
+
+
+/************** 7. Download Area ************************/
+
+
+.download-area {
+	background-color:#F5F6F7;
+	padding:100px 0;
+	ovweflow:hidden;
+}
+.download-area .container {
+	width:70%;
+	text-align:center;
+}
+.download-area a {
+	background-color:#1ABC9C;
+	display:inline-block;
+	border-radius: 5px;
+	margin: 30px 10px;
+}
+.download-area a i {
+	padding:20px 30px;
+	background-color:#16a085;
+	margin-right:0;
+	border-radius: 0px 5px 5px 0px;
+	transition:1s;
+}
+.download-area a b {
+	padding:0 50px;
+}
+.download-area a {
+	text-decoration:none;
+	color:white;
+	font-size:20px;
+	text-transform:uppercase;
+	transition:1s;
+}
+.download-area a:hover {
+	background-color:white;
+	color:#16a085;
+}
+.download-area a:hover i {
+	background-color:black;
+	color:white;
+}
+
+
+
+
+/************** 7. Download Area ************************/
+
+footer {
+	
+	font-family: "bold";
+}
+footer .container {
+	overflow:hidden;
+	padding:100px 0;
+	color:#1ABC9C;
+}
+footer .credit {
+	width:90%;
+	float:left;
+}
+footer .credit a {
+	color:#444444;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+footer .credit a:hover {
+	color:#16A085;
+}
+footer .credit p {
+	color:#444444;
+	font-family: "bold";
+}
+footer .f-logo {
+	width:10%;
+	float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

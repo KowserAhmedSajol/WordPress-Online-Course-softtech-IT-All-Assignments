@@ -1,0 +1,134 @@
+body {
+	margin:0;
+}
+.header {
+	height:100px;
+	width:100%;
+	background-color:#415E9B;
+	color:white;
+}
+.center {
+	width:100%;
+	background-color:#EBEDF0;
+	
+}
+.footer {
+	height:400px;
+	width:100%;
+	margin:0 200px 0;
+	
+}
+.facebook {
+	height:100px;
+	width:65%;
+	float:left;
+}
+.facebook img {
+	margin-top:40px;
+	margin-left:20px;
+}
+.mail {
+	overflow:hidden;
+	width:13%;
+	height:100px;
+	float:left;
+}
+.e-or-p, .pa {
+	margin-top:20px;
+}
+.pass {
+	overflow:hidden;
+	width:13%;
+	height:100px;
+	float:left;
+	
+}
+.login {
+	
+	overflow:hidden;
+}
+.log-input {
+	margin-top:37px;
+	background-color:#4267B2;
+	color:white;
+}
+.fo {
+	margin:0 550px 0;
+	padding-top:30px;
+	width:30%
+}
+.create {
+	font-size:50px;
+	margin:0;
+}
+.other {
+	margin:0;
+	padding-bottom:20px;
+}
+.f-name {
+	float:left;
+}
+.s-name {
+	Overflow:hidden;
+}
+.a, .b {
+	width:200px;
+	height: 50px;
+	margin-left:10px;
+	
+	font-size:25px;
+	margin-bottom:10px;
+}
+.c, .d {
+	width:420px;
+	height: 50px;
+	margin-left:10px;
+	font-size:25px;
+	margin-bottom:10px;
+}
+.b-date {
+	margin-left:10px;
+}
+.e, .f{
+	float:left;
+	overflow:hidden;
+	width:50px;
+}
+.g {
+	width:50px;
+}
+.h{
+	margin-top:10px;
+}
+.gend, .policy {
+	margin:10px 10px 10px 10px;
+}
+.i {
+	height:30px;
+	width:200px;
+	background-color:#609C4D;
+	color:white;
+	margin-bottom:100px;
+}
+.sub {
+	margin:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

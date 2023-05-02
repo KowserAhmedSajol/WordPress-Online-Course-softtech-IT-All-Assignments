@@ -1,0 +1,17 @@
+body {
+  margin:0;
+  padding:0;
+}
+#sticker {
+  background-color: red;
+  height:100px;
+  margin:0;
+  padding:0;
+}
+#main {
+  background-color: green;
+  height:1000px;
+}#footer {
+  background-color: blue;
+  height:100px;
+}

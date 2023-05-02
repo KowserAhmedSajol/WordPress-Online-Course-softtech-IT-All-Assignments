@@ -1,0 +1,18 @@
+.btn {
+	border:5px solid red;
+	background-color: pink;
+	padding:10px 30px;
+	box-sizing: border-box;
+}
+.btn:hover {
+	border:5px solid green;
+	background-color: yellow;
+}
+.line p {
+	float: left;
+	margin-right: 10px;
+	width:12%;
+}
+.line button {
+	overflow: hidden;
+}
